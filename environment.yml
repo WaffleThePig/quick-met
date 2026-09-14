@@ -1,0 +1,11 @@
+name: meteo-pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - xarray
+  - numpy
+  - pint
+  - pint-xarray
+  - netcdf4
